@@ -8,7 +8,9 @@ class TrackList extends React.Component {
 
     return (
       <div className="TrackList">
-        {this.props.tracks.length > 0 && this.props.tracks.map((track) => {
+        {this.props.tracks &&
+          this.props.tracks.map((track) => {
+            // Check if we have tracks before mapping
             return (
               <Track
                 track={track}

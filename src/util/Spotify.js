@@ -31,6 +31,7 @@ const Spotify = {
     try {
 
       const accessToken = Spotify.getAccessToken(); // modified
+      
 
     const response = await fetch(
       `https://api.spotify.com/v1/search?type=track&q=${term}`,
@@ -42,6 +43,7 @@ const Spotify = {
     );
 
     const json = await response.json();
+    
     return json.tracks.items.map((track) => {
       // modified
       return {

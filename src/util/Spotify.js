@@ -1,5 +1,5 @@
 const clientId = "603166b5ba6841468c0c7669d71fb7a7";
-const redirectUri = "http://localhost:3000/callback/";
+const redirectUri = "http://lush-ants.surge.sh";
 
 let accessToken;
 

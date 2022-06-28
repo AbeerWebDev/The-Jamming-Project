@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# The Jamming Project
+Link to project deployed with netlify. Live demo [here](the-jamming-project.netlify.app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Content
+* General Information
+* Technologies Used
+* Features
+* Screenshot
+* Installation and Setup Instructions
+* Usage
+* Project Status
+* Room for Improvement
+* Acknowledgements
+* Contact
 
-## Available Scripts
+## General Information
+I created The Jamming Project with the intention of organizing Spotify music into playlists. You may search for your favorite artist or songs on The Jamming Project, and add them to a playlist that will directly be reflected in your Spotify app.
 
-In the project directory, you can run:
+### Purpose of this project
 
-### `npm start`
+To practice using API’s in this case the Spotify API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
+* ReactJS - V17.0.2
+* HTML
+* CSS
+* JavaScript
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+* Search for your preferred music by artist or title.
+* Name your playlist.
+* Submit your playlist to your Spotify application.
 
-### `npm test`
+## Screenshot
+Version 1.0 
+![project screenshot](Screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup Instructions
 
-### `npm run build`
+Clone down this repository. You will need node and `npm` installed globally on your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Run Test Suite:
 
-### `npm run eject`
+`npm test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To Start Server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To Visit App:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`localhost:3000/`
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Search**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Search for music by title or artist.
 
-### Code Splitting
+**Add to Playlist**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Name a playlist and add your music to it.
 
-### Analyzing the Bundle Size
+**Submit**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Submit your playlist from The Jamming Project to your Spotify app.
 
-### Making a Progressive Web App
+## Project Status
+Project is: Completed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Room for Improvement
+* Login authentication.
+* Add tests with Jest, Enzyme, and Selenium.
+* Make fetching the Client ID into a one step process, which will eliminate the need to hit the search button twice after writing the name of the song.
 
-### Advanced Configuration
+## Acknowledgements
+* Many thanks to Codecademy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
+Created by Abeer Ahmed [LinkedIn profile](add url) - feel free to contact me.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

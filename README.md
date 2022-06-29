@@ -1,5 +1,5 @@
 # The Jamming Project
-Link to project deployed with netlify. Live demo [here](the-jamming-project.netlify.app)
+Link to project deployed with netlify. Live demo [here](https://the-jamming-project.netlify.app)
 
 ## Table of Content
 * General Information

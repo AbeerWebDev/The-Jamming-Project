@@ -1,6 +1,3 @@
-const clientId = "603166b5ba6841468c0c7669d71fb7a7";
-const redirectUri = "http://lush-ants.surge.sh";
-
 let accessToken;
 
 const Spotify = {
@@ -20,7 +17,7 @@ const Spotify = {
       window.history.pushState("Access Token", null, "/");
       return accessToken;
     } else {
-      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
+      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_CLIENT_ID}&response_type=token&scope=playlist-modify-public&redirect_uri=${process.env.REACT_APP_REDIRECT_URI}`;
       window.location = accessUrl;
     }
   },
